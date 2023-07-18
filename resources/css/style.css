@@ -6,14 +6,16 @@ html, body {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    margin:8px;
 
 }
 /*HEADINGS*/
 h1 {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    font-weight: normal; 
-    text-align:center;
+    font-weight: normal;
+    text-align: center;
 }
 h2 {
     color:white;
@@ -29,8 +31,14 @@ p {
     color:grey;
     font-size:21px;
 }
+/*VIDEO*/
+video {
+    object-fit:contain;
+    overflow-clip-margin:inherit;
+    overflow: clip;
+}
 /*BOTTOM PAGE*/
-footer {
+.footer {
     color:gray;
     text-align:right;
 }
